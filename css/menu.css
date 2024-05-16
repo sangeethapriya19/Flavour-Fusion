@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.main{
+    width:100%;
+}
+
+nav{
+    width:100%;
+    background-color: black;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 30px;
+    color:red;
+    font-weight:bold;
+    margin-left:100px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+
+ul{
+    margin:0px;
+    margin-right:100px;
+}
+
+ul li{
+    float:left;
+    padding:0px 10px;
+    list-style:none;
+}
+
+ul li a:hover{
+    color:red;
+}
+    #menuheading{
+    text-align:center;
+    font-family:georgia;
+    font-size:45px;
+    font-weight:bolder;
+    color:black;
+    margin-bottom:150px;
+    }
+    
+    .container{
+    background-color:white;
+    height:1900px;
+    }
+    
+    .gallery {
+    margin-left:20px;
+    margin-bottom:30px;
+    border: 2px solid white;
+    float: left;
+    width: 280px;
+    }
+    
+    .gallery:hover {
+    border: 1px solid white;
+    }
+    
+    .img {
+    width: 280%;
+    height: auto;
+    }
+    .pic{
+        transition: all 0.3s linear;
+        
+    }
+    .pic:hover{
+        border:1px solid #000;
+        border-radius:20%;
+        box-shadow: 15px 15px 15px #000;
+    }
+    
+    .desc {
+    padding: 30px;
+    text-align: center;
+    color:black;
+    margin-bottom:120px;
+    font-size:35px;
+    font-weight:bold;
+    }
+    
+    .margin{
+    margin-left:40px;
+    }
+.btn{
+    text-align: center;
+}
+    
+    
+    

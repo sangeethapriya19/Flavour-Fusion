@@ -1,0 +1,144 @@
+body{
+    background-image:url('https://www.hotelengel.at/wp-content/uploads/2020/04/Engelstuben3-1024x683.jpg');
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
+
+.main{
+    width:100%;
+}
+
+nav{
+    width:100%;
+    background-color: black;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 30px;
+    color:red;
+    font-weight:bold;
+    margin-left:100px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+
+ul{
+    margin:0px;
+    margin-right:100px;
+}
+
+ul li{
+    float:left;
+    padding:0px 10px;
+    list-style:none;
+}
+
+ul li a:hover{
+    color:red;
+}
+
+
+
+.message{
+font-family:georgia;
+font-size:30px;
+font-weight:bolder;
+color:white;
+text-align:center;
+}
+
+button{
+    background-color:grey;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size:18px;
+    margin-top:20px;
+    padding:8px 20px;
+    border-radius:6px;
+    border-color:black;
+    }
+
+
+.contactinfo{
+color:white;
+font-size:15px;
+font-family:Times New Roman;
+padding:5px;
+margin:20px 20px 20px 20px;
+}
+
+.contact{
+color:white;
+font-size:18px;
+font-family:Times New Roman;
+padding:2em;
+text-align:center;
+background-color:rgba(0,0,0,1.1);
+margin-top:70px;
+}
+
+.form{
+padding:4.9em;
+font-size:25px;
+padding:20px;
+background: rgba(0,0,0,0.5);
+width:420px;
+margin-left:auto;
+margin-right:auto;
+margin-top: 50px;
+border-radius:20px;
+}
+
+.form input{
+width:80%;
+font-size:20px;
+border:1px solid black;
+border-radius:8px;
+padding:10px 10px;
+margin:10px 0px 15px;
+margin-left:30px;
+}
+
+.form textarea{
+width:80%;
+font-size:20px;
+border:1px solid black;
+border-radius:8px;
+padding:10px 10px;
+margin:10px 0px 15px;
+margin-left:30px;
+}
+
+.container{
+height:180vh;
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.overlay{
+   
+    height:170vh;
+}
+
+.bg{
+background-color:rgba(0,0,0,0.5);
+}
+
+.lineborder{
+background-color:rgba(0,0,0,0.9);
+}
+

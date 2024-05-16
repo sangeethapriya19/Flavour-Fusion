@@ -1,0 +1,138 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.main{
+    width:100%;
+}
+
+nav{
+    width:100%;
+    background-color: black;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 30px;
+    color:red;
+    font-weight:bold;
+    margin-left:100px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+
+ul{
+    margin:0px;
+    margin-right:100px;
+}
+
+ul li{
+    float:left;
+    padding:0px 10px;
+    list-style:none;
+}
+
+ul li a:hover{
+    color:red;
+}
+
+
+    
+    .center{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:25px;
+    color:white;
+    padding:20px;
+    font-weight:bold;
+    }
+    
+    #tablenon{
+    background-color:rgba(0,0,0,0.4);
+    height:1330px;
+    }
+    
+    .menuitem{
+    background-color:rgba(0,0,0,0.5);
+    height:1400px;
+    }
+    
+    .starters{
+    background-image:url(https://images.kitchenstories.io/recipeImages/RP08_20_10_BlinisWithTwoToppings_TitlePicture/RP08_20_10_BlinisWithTwoToppings_TitlePicture-large-landscape-150.jpg);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    .breakfast{
+    background-image:url(https://mayurapa.com/wp-content/uploads/2022/05/masala-dosa-1024x1024.jpg);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    .veg{
+    background-image:url(https://www.indianveggiedelight.com/wp-content/uploads/2020/06/veg-fried-rice-featured.jpg);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    
+    .nonveg{
+    background-image:url(https://img.freepik.com/premium-photo/dum-handi-chicken-biryani-is-prepared-earthen-clay-pot-called-haandi-popular-indian-non-vegetarian-food_466689-52221.jpg?w=740);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    .dinner{
+    background-image:url(https://culinaryshades.com/wp-content/uploads/2020/10/Roti-rc-500x500.jpg);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    .dessert{
+    background-image:url(https://insanelygoodrecipes.com/wp-content/uploads/2020/04/peach-cheesecake-2048x1365.jpg);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    .soups{
+    background-image:url(https://www.drweil.com/wp-content/uploads/2016/12/diet-nutrition_recipes_roasted-vegetable-soup_2725x1804_000071339861-1024x768.jpg);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    .salads{
+    background-image:url(https://i.pinimg.com/originals/c3/1b/d3/c31bd3694d3efb0579199bea3ff6fdf2.jpg);
+    height:1400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    th{
+    font-size:50px;
+    font-family:verdana;
+    font-weight:bolder;
+    color:#fbc740;
+    padding:30px;
+    }
+    
+    th,td{
+    padding:25px;
+    }
+    
+    
